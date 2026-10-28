@@ -1,0 +1,16 @@
+# Saídas para pessoas
+deliverables/*
+!deliverables/.gitkeep
+
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Claude Code: arquivos pessoais
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
+
+# Sistema
+.DS_Store
